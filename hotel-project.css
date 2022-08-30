@@ -288,4 +288,8 @@ img {
      .card img {
         width: 100%;
      }
+    .space {
+        padding-left: 2rem;
+    }
+}
 }

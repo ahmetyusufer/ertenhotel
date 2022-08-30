@@ -293,4 +293,9 @@ img {
         padding-left: 3rem;
     }
 }
+
+@media (max-width:650px){
+    html {
+        font-size: 7.3px  ;
+    }
 }

@@ -1,1 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hotel-project.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Erten Hotel</title>
+</head>
+<body>
+    <!-- header -->
+    <header id="home" class="main-header">
+        <div class="navbar">
+            <h1 class="brand">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Erten</span> Hotel
+            </h1>
 
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Welcome to Erten Hotel</h1>
+            <p class="space">Lorem ipsum dolor, sit amet consectetur adipisicing  elit. <span style="margin-left:16rem ;">Tempore, corrupti.</span></p>
+            <a href="" class="btn btn-primary">
+                <i class="fas fa-chevron-right"></i>
+                Read More
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- services -->
+        <section id=services class="icons bg-light"> 
+            <div class="flex-items">
+                <div>
+                    <i class="fas fa-concierge-bell fa-3x"></i>
+                    <div>
+                        <h3>24/7 Front Desk</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fas fa-utensils fa-3x"></i>
+                    <div>
+                        <h3>Restaurant Bar</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fas fa-bus fa-3x"></i>
+                    <div>
+                        <h3>Transfer Services</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fas fa-spa fa-3x"></i>
+                    <div>
+                        <h3>Spa Suites</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="about1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-dark" style="color: white;">
+                        <h1>Customer Service</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat?</p>
+                        <button class="btn btn-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section id="gallery" class="flex-grid">
+            <header class="section-header">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolorem.</p>
+            </header>
+            <div class="row margin">
+                <div class="column">
+                    <img src="1.jpeg" alt="">
+                    <img src="2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="3.jpeg" alt="">
+                    <img src="4.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="1.jpeg" alt="">
+                    <img src="2.jpeg" alt="">
+                </div>
+                <div class="column">
+                    <img src="3.jpeg" alt="">
+                    <img src="4.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="flex-columns flex-reverse">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="about2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-primary">
+                        <h1>Customer Service</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, fugiat?</p>
+                        <button class="btn btn-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- rooms -->
+        <section id="rooms" class="rooms section-padding"> 
+            <header class="section-header">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolorem.</p>
+            </header>
+            <div class="flex-items">
+                 <div class="card">
+                    <img src="room1.jpeg" alt="">
+                    <div class="card-body bg-danger">
+                        <h2>Erten Hotel Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="room2.jpeg" alt="">
+                    <div class="card-body bg-danger">
+                        <h2>Erten Hotel Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="room3.jpeg" alt="">
+                    <div class="card-body bg-danger">
+                        <h2>Erten Hotel Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- teams -->
+        <section id="teams" class="teams section-padding" style="background-color: beige;">
+            <header class="section-header">
+                <h2 style="color: red;">Kurucular</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolorem.</p>
+            </header>
+
+            <div class="flex-items">
+                <div style="flex-basis: 425px;" class="deneme">
+                    <img src="ahmet2.jpeg" alt="">
+                    <h2 style="color:darkslategrey; font-weight: 700">Ahmet Yusuf Erten</h2>
+                    <h3 style="color: blue;">General manager</h3>
+                </div>
+        </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="contact flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="contact.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Contact Us</h2>
+                        <form action="" class="contact-form">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter Your Name">
+                            </div>
+
+                            <div class="form-control">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="Enter Your E-mail">
+                            </div>
+
+                            <div class="form-control">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone" placeholder="Enter Your Number">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+
+                    </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer bg-light">
+            <div class="social">
+                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+                <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>Copyright &copy 2025 - Erten Hotel</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background-color: white;
+    color:#333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    opacity: 0.8;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0 3rem;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0 .5px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid var(--warning);
+}
+
+.navbar .brand {
+    font-weight: 400;
+}
+.navbar h1 {
+    font-size: 3rem;
+}
+
+.navbar span {
+    color: var(--warning);
+}
+
+.main-header {
+    background-image: url(ErtenHotel__images/bg-1.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.main-header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-header::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.main-header * {
+    z-index: 1;
+}
+
+.main-header .content h1 {
+    font-size: 5.5rem;
+}
+
+.main-header .content p {
+    font-size: 2.3rem;
+    max-width: 60rem;
+    margin: 2rem 0rem 3rem ;
+}
+
+
+/* about */
+
+
+
+/* gallery */
+#gallery img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* rooms__cards */
+.card {
+    color: #fff;
+    font-weight: 700;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+.card-body {
+    padding: 2rem;
+    margin-top: -10px;
+}
+
+/* teams */
+.teams img {
+    border-radius: 50%;
+}
+
+.teams img:hover {
+    opacity: 0.7;
+}
+
+/* contact */
+
+
+.cantact-form {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.cantact-form .form-control {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form input {
+    width: 50rem;
+    padding: 5px;
+    height: 40px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    background-color:darkgray;
+
+}
+
+.contact-form .btn {
+    margin-bottom: 100px;
+}
+
+.contact h2 {
+    font-size: 4rem;
+    font-weight: 700; 
+    margin: 2rem 12rem;
+}
+
+.contact .column-2 {
+    background-color:beige;
+    padding-left: 10rem;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+ }
+
+
+ /* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer a {
+    color: var(--danger);
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    opacity: 0.7;
+}
+
+@media (max-width:768px){
+    html {
+        font-size: 8px  ;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 90px;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .navbar a {
+        padding: 1.2;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-items img {
+        width: 70%;
+    }
+    #about .row {
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;    
+    }
+
+    .form-control input {
+        width: 29rem;
+    }
+
+    #contact .row {
+        flex-direction: column;
+    }
+
+    #contact  h2 {
+        margin-left: 25px;
+    }
+
+    #gallery  .column {
+        flex: 50%;
+     }
+
+     #home .content h1 {
+        font-size: 4rem;
+     } 
+
+     #home .content p {
+        font-size: 1.8rem;
+     }
+    
+     nav {
+        margin-top: 13px;
+     }
+
+     .card img {
+        width: 100%;
+     }
+}
